@@ -19,6 +19,7 @@ It’s built with **clean, modular code**, fully covered by unit tests, and incl
 
 ## Project Structure
 
+```
 sweetshop/
 │── src/
 │ └── sweetshop.py # main SweetShop class
@@ -27,31 +28,34 @@ sweetshop/
 │── run_sweetshop.py # interactive demo script
 │── README.md
 
-yaml
-Copy code
-
+```
 ---
 
 ## Setup
 
 1. Clone the repo:
 
-```bash
+```
 git clone https://github.com/sachinz25/sweetshop-incubyte.git
 cd sweetshop-incubyte
-Install dependencies (pytest):
-
-bash
-Copy code
+```
+2.Install dependencies (pytest):
+```
 pip install pytest
-How to Run
+```
+
+---
+
+## How to Run
 Run Tests (TDD verification):
-bash
-Copy code
+```
 pytest -v
+```
+
 Run Interactive Script:
-bash
-Copy code
+```
 python run_sweetshop.py
-Follow the prompts to view available sweets and place orders. The total bill and remaining stock will be displayed.
+```
+note: Follow the prompts to view available sweets and place orders.
+The total bill and remaining stock will be displayed.
 
