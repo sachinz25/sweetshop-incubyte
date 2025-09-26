@@ -66,3 +66,11 @@ python run_sweetshop.py
 note: Follow the prompts to view available sweets and place orders.
 The total bill and remaining stock will be displayed.
 
+---
+
+## Screenshot
+
+<div>
+  <img src="./screenshot/vscode.png">
+</div>
+
